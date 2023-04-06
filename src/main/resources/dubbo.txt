@@ -1,0 +1,7 @@
+dubbo: 数据治理控制面 + Dubbo数据面
+
+dubbo2: zookeeper 注册的层级： root / service /type /url
+        provider: 注册url 到 type-provider url， consumer: 注册url 到 type-consumers url， 并且订阅providers,
+        Monitor监听： service节点
+dubbo3: nacos: 默认是:应用级服务发现 + 接口级服务发现 的双注册模式
+
